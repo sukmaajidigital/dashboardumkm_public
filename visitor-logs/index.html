@@ -1265,46 +1265,32 @@
       aria-hidden="true"
     >
       <div class="h-full px-3 py-4 overflow-y-auto bg-base-100">
-        <a href="/" class="flex items-center ps-2.5 mb-5">
+        <a href="/dashboardumkm_public" class="flex items-center ps-2.5 mb-5">
           <img src="./index_files/logo.png" class="h-6 me-3 sm:h-7" alt="Dashboard MBK" />
           <span class="self-center text-xl font-semibold whitespace-nowrap">Dashboard MBK</span>
         </a>
         <ul class="menu space-y-1">
           <li>
-            <a href="/" class=" ">
+            <a href="/dashboardumkm_public" class="active">
               <span class="icon-[tabler--home-filled] size-5"></span>
               Dashboard
             </a>
           </li>
 
           <li>
-            <a href="/visitor-logs" class="active">
+            <a href="/dashboardumkm_public/visitor-logs" class=" ">
               <span class="icon-[tabler--home] size-5"></span>
               visitor Logs
             </a>
           </li>
-          <li class="space-y-0.5">
-            <a
-              class="collapse-toggle collapse-open:bg-base-content/10"
-              id="menu-app"
-              data-collapse="#menu-app-collapse"
-            >
-              <span class="icon-[tabler--user-hexagon] size-5"></span>
+          <li>
+            <a href="/dashboardumkm_public/blog" class="active">
+              <span class="icon-[tabler--category-filled] size-5"></span>
               Blog
-              <span
-                class="icon-[tabler--chevron-down] collapse-open:rotate-180 size-4 transition-all duration-300"
-              ></span>
             </a>
-            <ul id="menu-app-collapse" class="collapse hidden" aria-labelledby="menu-app">
-              <li>
-                <a href="/blog" class="">
-                  <span class="icon-[tabler--category-filled] size-5"></span>
-                  Blog
-                </a>
-              </li>
-            </ul>
           </li>
-          <li class="space-y-0.5">
+
+          <!-- <li class="space-y-0.5">
             <a
               class="collapse-toggle collapse-open:bg-base-content/10"
               id="menu-app"
@@ -1459,7 +1445,7 @@
                 </a>
               </li>
             </ul>
-          </li>
+          </li> -->
         </ul>
 
         <div
@@ -1507,7 +1493,9 @@
                 >
               </div>
             </li>
-            <li><a class="dropdown-item" href="/visitor-logs#">My Profile</a></li>
+            <li>
+              <a class="dropdown-item" href="/#">My Profile</a>
+            </li>
             <li>
               <a href="/setting" class="dropdown-item">
                 <span class="icon-[tabler--settings] size-5"></span>
@@ -1515,11 +1503,11 @@
               </a>
             </li>
             <li>
-              <form method="POST" action="/logout">
+              <form method="POST" action="#logout">
                 <input
                   type="hidden"
                   name="_token"
-                  value="wuoAyFUViPFU3u5BMLYYmzN0B6nMyl6DoPu8w1df"
+                  value="5ZUXBOBJIUa41yXC4EQCuEN0048YZQrpT92kLJrq"
                   autocomplete="off"
                 />
                 <a
